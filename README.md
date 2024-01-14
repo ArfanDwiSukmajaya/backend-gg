@@ -41,7 +41,7 @@ The database structure for the Tokopedia Play Clone is designed using MongoDB. I
 }
 ```
 
-**GET /api/v1/video**
+**GET /api/v1/videos**
 
 ---
 
@@ -52,7 +52,7 @@ The database structure for the Tokopedia Play Clone is designed using MongoDB. I
   - **Code:** 500
   - **Content:** `{ message: <error_message> }`
 
-**GET /api/v1/video/:videoID**
+**GET /api/v1/videos/:videoID**
 
 ---
 
@@ -65,7 +65,7 @@ The database structure for the Tokopedia Play Clone is designed using MongoDB. I
   - **Code:** 500
   - **Content:** `{ message: <error_message> }`
 
-**POST /api/v1/video**
+**POST /api/v1/videos**
 
 ---
 
@@ -82,7 +82,7 @@ The database structure for the Tokopedia Play Clone is designed using MongoDB. I
   - **Code:** 400
   - **Content:** `{ message: <error_message> }`
 
-**PATCH /api/v1/video/:videoID**
+**PATCH /api/v1/videos/:videoID**
 
 ---
 
@@ -101,7 +101,7 @@ The database structure for the Tokopedia Play Clone is designed using MongoDB. I
   - **Code:** 400
   - **Content:** `{ message: <error_message> }`
 
-**DELETE /api/v1/video/:videoID**
+**DELETE /api/v1/videos/:videoID**
 
 ---
 
